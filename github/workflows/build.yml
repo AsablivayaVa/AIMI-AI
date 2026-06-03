@@ -1,6 +1,8 @@
 name: Build AIMI-AI APK
 
 on:
+    push:
+    branches: [ master ] # Это заставит GitHub Actions принудительно увидеть файл
   workflow_dispatch: # Позволяет запускать сборку вручную кнопкой
 
 jobs:
